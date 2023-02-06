@@ -3,7 +3,7 @@ var backgroundImg;
 var greetings = 1;
 var play = 0;
 var battle_backgroundImg;
-var gameState;
+var gameState="greetings";
 
 
 function preload(){
@@ -13,7 +13,7 @@ function preload(){
 
 function setup(){
     canvas = createCanvas(windowWidth, windowHeight);
-    var gameState = "greetings";
+    // var gameState = "greetings";
 }
 
 function draw() {
